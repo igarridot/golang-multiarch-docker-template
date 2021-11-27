@@ -1,10 +1,10 @@
-## How to contribute to Ruby Google Cloud Status Exporter
+## How to contribute to Golang Multiarch Docker Template
 
 #### **Did you find a bug?**
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/igarridot/GoogleCloudStatusExporter/issues).
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/igarridot/golang-multiarch-docker-template/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/igarridot/GoogleCloudStatusExporter/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/igarridot/golang-multiarch-docker-template/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
 
 #### **Did you write a patch that fixes a bug?**
