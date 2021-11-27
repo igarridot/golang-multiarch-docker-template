@@ -1,6 +1,6 @@
 REGISTRY_ENDPOINT ?= localhost:5001/
 GOLANG_VERSION ?= 1.17.3
-VERSION ?= v0.1.0-rc1
+VERSION ?= v0.1.0
 PROJECT ?= project-name
 BUILDER_NAME ?= multiarch_builder
 BUILD_PLATFORMS ?= linux/arm64,linux/amd64
@@ -22,7 +22,7 @@ build-image:
 	@docker buildx build -t $(REGISTRY_ENDPOINT)$(PROJECT):$(VERSION) -f ${DOCKERFILE_PATH} \
 		--build-arg GOLANG_VERSION=$(GOLANG_VERSION) \
 		--build-arg PROJECT_NAME=$(PROJECT) \
-		--platform linux/arm64,linux/amd64 \
+		--platform $(BUILD_PLATFORMS) \
 		--push \
 		.
 
