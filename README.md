@@ -22,6 +22,8 @@ Every individual architecture image contains proper Go binary based on the CPU a
 
 Following the [Docker Multistage](https://docs.docker.com/develop/develop-images/multistage-build/) best practices and [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx/) [multiarchitecture](https://docs.docker.com/desktop/multi-arch/) approach.
 
+![multiarch-flow](https://user-images.githubusercontent.com/33375539/143691414-11d4e157-1963-4aa6-be73-7caef9ff17a2.png)
+
 ## Configuration
 
 Inside Makefile you can tune the following variables to build your project:
@@ -63,3 +65,5 @@ In this example case, we will build and push the multiarch image to a remote reg
 - Launch the build command: `make build`
 
 Result:
+
+![multiarch-result](https://user-images.githubusercontent.com/33375539/143691403-4ce75f90-a862-4276-b23e-c102daf3fc6f.png)
